@@ -61,7 +61,7 @@ library
 
 
   default-language: Haskell2010
-  include-dirs: quickjs
+  include-dirs: quickjs, quickjs/quickjs
   c-sources:
       quickjs/cutils.c
     , quickjs/libbf.c
